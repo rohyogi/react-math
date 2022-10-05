@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  background: $light-grey;
+  // background:
+  //   radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)),
+  //   linear-gradient(108deg, #26D0CE, #1A2980 90%);
+  // background-size: cover;
+  color:$grey;
+  font-family: $font;
+  min-height: 100vh;
+}
